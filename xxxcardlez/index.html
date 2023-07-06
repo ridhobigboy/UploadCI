@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://cardlez.com/ -->
+<html lang="en-US" prefix="og: https://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="texhot/javascript" async="" src="./asset_files/analytics.js.download"></script><script type="text/javascript" async="" src="./asset_files/js"></script><script type="text/javascript" async="" src="./asset_files/js(1)"></script><script async="" src="./asset_files/gtm.js.download"></script><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+
+<meta name="viewport" content="width=device-width">
+<!-- WP_HEAD() START -->
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer="">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<!--  <title>Aplikasi Mobile Banking Koperasi &amp; BPR | Cardlez | Indonesia
+-->
+<title>Aplikasi Mobile Banking Koperasi &amp;  |  | Indonesia
+</title><link rel="preload" as="style" href="./asset_files/css"><link rel="stylesheet" href="./asset_files/css" media="all" onload="this.media=&#39;all&#39;"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7Cunineue-heavyitalic%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CSource%20Sans%20Pro%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CLato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7Cunineue-heavyitalic%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CArray%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;display=swap" /></noscript><link rel="stylesheet" href="./asset_files/a5f40518d0c23ee99cd2c7e54ec5fb15.css" media="all" data-minify="1">
+<!-- <meta name="description" content=" Aplikasi Mobile Banking Koperasi.">  -->
+ <meta name="description" content=" Aplikasi Mobile Banking Koperasi."> 
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<!-- 
+<link rel="canonical" href="https://cardlez.com/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+
+
+<meta property="og:title" content="Aplikasi Mobile Banking Koperasi &amp; BPR | Cardlez | Indonesia">
+<meta property="og:description" content="Cardlez - Aplikasi Mobile Banking Koperasi dan BPR Indonesia yang Modern dan Inovatif. Integrasi dengan Mudah Banking Software dengan Aman dan Mudah.">
+-->
+
+
+<!--<link rel="canonical" href="https://cardlez.com/">  -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+
+
+<meta property="og:title" content="Aplikasi Mobile Banking Koperasi &amp; |  | Indonesia">
+<meta property="og:description" content=" Aplikasi Mobile Banking Koperasi  Indonesia yang Modern .">
+
+<!--
+<meta property="og:url" content="https://cardlez.com/">
+<meta property="og:site_name" content="Cardlez">
+<meta property="og:updated_time" content="2021-10-18T13:17:57+07:00">
+<meta property="article:published_time" content="2021-08-17T22:53:26+07:00">
+<meta property="article:modified_time" content="2021-10-18T13:17:57+07:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aplikasi Mobile Banking Koperasi &amp; BPR | Cardlez | Indonesia">
+<meta name="twitter:description" content="Cardlez - Aplikasi Mobile Banking Koperasi dan BPR Indonesia yang Modern dan Inovatif. Integrasi dengan Mudah Banking Software dengan Aman dan Mudah.">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="admin">
+<meta name="twitter:label2" content="Time to read">
+<meta name="twitter:data2" content="Less than a minute">
+-->
+
+<meta property="og:url" content="/">
+<meta property="og:site_name" content="Cardlez">
+<meta property="og:updated_time" content="2021-10-18T13:17:57+07:00">
+<meta property="article:published_time" content="2021-08-17T22:53:26+07:00">
+<meta property="article:modified_time" content="2021-10-18T13:17:57+07:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aplikasi Mobile Banking Koperasi &amp;  |  | Indonesia">
+<meta name="twitter:description" content="Cardlez - Aplikasi Mobile Banking Koperasi Indonesia h.">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="admin">
+<meta name="twitter:label2" content="Time to read">
+<meta name="twitter:data2" content="Less than a minute">
+
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+
+
+
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+
+
+
+<script type="text/javascript" src="./asset_files/jquery.min.js.download" id="jquery-core-js" defer=""></script>
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="./asset_files/js(2)" id="google_gtagjs-js" async=""></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+
+ gtag('set', 'linker', {"domains":[""]} );
+
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-213697934-1", {"anonymize_ip":true});
+gtag("config", "G-77V01XZDSX");
+</script>
+
+<!-- End Google Analytics snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://cardlez.com/wp-json/"><link rel="alternate" type="application/json" href="https://cardlez.com/wp-json/wp/v2/pages/133"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cardlez.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cardlez.com/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
+<link rel="shortlink" href="https://cardlez.com/">
+<link rel="alternate" type="application/json+oembed" href="https://cardlez.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcardlez.com%2F">
+
+<!--
+<link rel="alternate" type="text/xml+oembed" href="https://cardlez.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcardlez.com%2F&amp;format=xml">
+-->
+
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcardlez.com%2F&amp;format=xml">
+<meta name="generator" content="Site Kit by Google 1.70.0">
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer="">//<![CDATA[
+	var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"admin"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TQBVLLS');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="icon" href="https://cardlez.com/wp-content/uploads/2021/08/cropped-favicon_cardlez-32x32.png" sizes="32x32">
+<link rel="icon" href="https://cardlez.com/wp-content/uploads/2021/08/cropped-favicon_cardlez-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://cardlez.com/wp-content/uploads/2021/08/cropped-favicon_cardlez-180x180.png">
+<meta name="msapplication-TileImage" content="https://cardlez.com/wp-content/uploads/2021/08/cropped-favicon_cardlez-270x270.png">
+
+
+
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><!-- END OF WP_HEAD() -->
+<link href="./asset_files/wp-polyfill.min.js.download" rel="preload" as="script"><link href="./asset_files/aos.js.download" rel="preload" as="script"><link href="./asset_files/jquery.min.js.download" rel="preload" as="script"><link href="./asset_files/regenerator-runtime.min.js.download" rel="preload" as="script"><link href="./asset_files/index.js.download" rel="preload" as="script"><link href="./asset_files/owl.carousel.js.download" rel="preload" as="script"><link href="./asset_files/logosliderwppublic-dep.js.download" rel="preload" as="script"><link href="./asset_files/unslider-min.js.download" rel="preload" as="script"><link href="./asset_files/jquery.event.move.js.download" rel="preload" as="script"><link href="./asset_files/jquery.event.swipe.js.download" rel="preload" as="script"><link href="./asset_files/js(2)" rel="preload" as="script"><link href="https://www.googletagmanager.com/" rel="preconnect"></head>
+<body class="home page-template-default page page-id-133 wp-embed-responsive oxygen-body oxygen-aos-enabled" style="margin-top: 75px;" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+<!--  http://cardlez.com/wp-content/uploads/2021/08/logo.png -->
+
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBVLLS"
+height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->					<header id="_header-8-101" class="oxy-header-wrapper oxy-sticky-header oxy-overlay-header oxy-header oxy-sticky-header-active"><div id="_header_row-9-101" class="oxy-header-row"><div class="oxy-header-container"><div id="_header_left-10-101" class="oxy-header-left"><img id="image-15-101" alt="" src="./asset_files/logobigkecill.png" class="ct-image entered lazyloaded" data-lazy-src="xxxxxxxxxxxxxxxxxxxxxx" data-ll-status="loaded"><noscript><img id="image-15-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/logo.png" class="ct-image"/></noscript></div><div id="_header_center-11-101" class="oxy-header-center"></div><div id="_header_right-12-101" class="oxy-header-right"><nav id="_nav_menu-16-101" class="oxy-nav-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow"><div class="oxy-menu-toggle"><div class="oxy-nav-menu-hamburger-wrap"><div class="oxy-nav-menu-hamburger"><div class="oxy-nav-menu-hamburger-line"></div><div class="oxy-nav-menu-hamburger-line"></div><div class="oxy-nav-menu-hamburger-line"></div></div></div></div><div class="menu-menu-container"><ul id="menu-menu" class="oxy-nav-menu-list"><li id="menu-item-171" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-171"><a href="/#home" aria-current="page"></a></li>
+
+<!--
+<li id="menu-item-172" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-172"><a href="http://cardlez.com/#fitur" aria-current="page"></a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-173"><a href="http://cardlez.com/#client" aria-current="page"></a></li>
+<li id="menu-item-174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174"><a href="/"></a></li>
+<li id="menu-item-175" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-175"><a href="/#kontak" aria-current="page"></a></li>
+<li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131"><a href="/"></a></li>
+ 
+<li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdsvpGw4Oq2EKq7OD6GR9DzTNW6_Vf9aG-uO2fnp1-ho3BZrA/viewform"></a>DAFTAR DISINI</li>
+-->
+
+</ul></div></nav><div id="code_block-18-101" class="ct-code-block">hello world!</div></div></div></div></header>
+				<script type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+			jQuery(document).ready(function() {
+				var selector = "#_header-8-101",
+					scrollval = parseInt("0");
+				if (!scrollval || scrollval < 1) {
+											jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+						jQuery(selector).addClass("oxy-sticky-header-active");
+									}
+				else {
+					var scrollTopOld = 0;
+					jQuery(window).scroll(function() {
+						if (!jQuery('body').hasClass('oxy-nav-menu-prevent-overflow')) {
+							if (jQuery(this).scrollTop() > scrollval 
+																) {
+								if (
+																		!jQuery(selector).hasClass("oxy-sticky-header-active")) {
+									if (jQuery(selector).css('position')!='absolute') {
+										jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+									}
+									jQuery(selector)
+										.addClass("oxy-sticky-header-active")
+																	}
+							}
+							else {
+								jQuery(selector)
+									.removeClass("oxy-sticky-header-fade-in")
+									.removeClass("oxy-sticky-header-active");
+								if (jQuery(selector).css('position')!='absolute') {
+									jQuery("body").css("margin-top", "");
+								}
+							}
+							scrollTopOld = jQuery(this).scrollTop();
+						}
+					})
+				}
+			});
+		});</script><div id="inner_content-20-101" class="ct-inner-content"><section id="home" class=" ct-section"><div class="ct-section-inner-wrap"><div id="new_columns-4-133" class="ct-new-columns"><div id="div_block-5-133" class="ct-div-block"><div id="div_block-9-133" class="ct-div-block"><p id="headline-10-133" class="ct-headline">Introducing <span id="span-299-133" class="ct-span">cardlez</span></p></div><h1 id="headline-12-133" class="ct-headline">Aplikasi Mobile Banking Koperasi &amp; BPR yang Modern dan Inovatif</h1><a id="link-296-133" class="ct-link" href="https://play.google.com/store/apps/details?id=com.cardlez.id&amp;hl=en&amp;gl=US" target="_self"><img id="image-295-133" alt="" src="./asset_files/googleplay.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/googleplay.png" data-ll-status="loaded"><noscript><img id="image-295-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/googleplay.png" class="ct-image"/></noscript></a></div><div id="div_block-6-133" class="ct-div-block"><img id="image-7-133" alt="aplikasi mobile banking koperasi dan BPR" src="./asset_files/cardlez-mockup-1.png" class="ct-image object entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-mockup-1.png" data-ll-status="loaded"><noscript><img id="image-7-133" alt="aplikasi mobile banking koperasi dan BPR" src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-mockup-1.png" class="ct-image object"/></noscript><div id="code_block-290-133" class="ct-code-block">hello world!</div></div></div><div id="code_block-294-133" class="ct-code-block">hello world!</div></div></section><section id="section-16-133" class=" ct-section"><div class="ct-section-inner-wrap"><div id="div_block-18-133" class="ct-div-block"><h2 id="headline-20-133" class="ct-headline">Tentang Cardlez</h2><div id="code_block-22-133" class="ct-code-block">hello world!</div><div id="video-17-133" class="ct-video">
+                <div class="oxygen-vsb-responsive-video-wrapper"><iframe loading="lazy" src="./asset_files/zVlaNNk3m08.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.youtube.com/embed/zVlaNNk3m08" data-ll-status="loaded" class="entered lazyloaded"></iframe><noscript><iframe src="https://www.youtube.com/embed/zVlaNNk3m08" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></noscript></div>
+                </div></div><div id="div_block-23-133" class="ct-div-block"><div id="new_columns-24-133" class="ct-new-columns"><div id="div_block-25-133" class="ct-div-block"><img id="image-27-133" alt="" class="ct-image object entered exited" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-illustration-1-1.png" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E"><noscript><img id="image-27-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-illustration-1-1.png" class="ct-image object"/></noscript></div><div id="div_block-26-133" class="ct-div-block"><h2 id="headline-28-133" class="ct-headline">Mengapa harus Cardlez?</h2><p id="headline-30-133" class="ct-headline">Keunggulan utama Mobile Banking Cardlez:</p><div id="div_block-31-133" class="ct-div-block"><div id="div_block-32-133" class="ct-div-block aos-init aos-animate" data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease" data-aos-once="true"><img id="image-33-133" alt="" class="ct-image entered exited" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/api.png" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E"><noscript><img id="image-33-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/api.png" class="ct-image"/></noscript><div id="div_block-34-133" class="ct-div-block"><h3 id="headline-35-133" class="ct-headline">Easy API Integration</h3><div id="text_block-36-133" class="ct-text-block">Kemudahan integrasi dengan API 3rd Party seperti Virtual Account Bank, Core Banking &amp; e-KYC</div></div></div><div id="div_block-43-133" class="ct-div-block aos-init aos-animate" data-aos="fade-up" data-aos-duration="200" data-aos-delay="200" data-aos-once="true"><img id="image-44-133" alt="" class="ct-image entered exited" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/cloud.png" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E"><noscript><img id="image-44-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/cloud.png" class="ct-image"/></noscript><div id="div_block-45-133" class="ct-div-block"><h3 id="headline-46-133" class="ct-headline">Back-End Processing</h3><div id="text_block-47-133" class="ct-text-block">Adanya proses sistem yang memungkinkan automasi jurnal &amp; pembayaran, maupun manajemen produk</div></div></div></div><div id="div_block-89-133" class="ct-div-block"><div id="div_block-100-133" class="ct-div-block aos-init aos-animate" data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease" data-aos-delay="400" data-aos-once="true"><img id="image-101-133" alt="" src="./asset_files/template.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/template.png" data-ll-status="loaded"><noscript><img id="image-101-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/template.png" class="ct-image"/></noscript><div id="div_block-102-133" class="ct-div-block"><h3 id="headline-103-133" class="ct-headline">Modern Features</h3><div id="text_block-104-133" class="ct-text-block">Fitur modern aplikasi yang memudahkan penggunaan Customer seperti Transfer Dana menggunakan QR Code</div></div></div><div id="div_block-105-133" class="ct-div-block aos-init aos-animate" data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease" data-aos-delay="600" data-aos-once="true"><img id="image-106-133" alt="" src="./asset_files/database.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/database.png" data-ll-status="loaded"><noscript><img id="image-106-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/database.png" class="ct-image"/></noscript><div id="div_block-107-133" class="ct-div-block"><h3 id="headline-108-133" class="ct-headline">Secure</h3><div id="text_block-109-133" class="ct-text-block">Keamanan dalam penggunaan aplikasi mobile &amp; authorisasi transaksi</div></div></div></div></div></div></div></div></section><section id="fitur" class=" ct-section"><div class="ct-section-inner-wrap"><h3 id="headline-116-133" class="ct-headline">Integrasi Cardlez</h3><h3 id="headline-118-133" class="ct-headline">Mudahnya Dihubungkan ke Sistem Lain</h3><div id="code_block-157-133" class="ct-code-block">hello world!</div><div id="new_columns-111-133" class="ct-new-columns"><div id="div_block-112-133" class="ct-div-block"><div id="div_block-125-133" class="ct-div-block"><h3 id="headline-119-133" class="ct-headline aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="400" data-aos-once="true">VA &amp; Banks API</h3><img id="image-231-133" alt="" src="./asset_files/line_left.png" class="ct-image aos-init entered aos-animate lazyloaded" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="600" data-aos-once="true" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/line_left.png" data-ll-status="loaded"><noscript><img id="image-231-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/line_left.png" class="ct-image" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="600" data-aos-once="true"/></noscript></div><div id="div_block-232-133" class="ct-div-block"><h3 id="headline-233-133" class="ct-headline aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1200" data-aos-once="true">Core Banking API</h3><img id="image-234-133" alt="" src="./asset_files/line_left.png" class="ct-image aos-init entered aos-animate lazyloaded" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1400" data-aos-once="true" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/line_left.png" data-ll-status="loaded"><noscript><img id="image-234-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/line_left.png" class="ct-image" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1400" data-aos-once="true"/></noscript></div><div id="div_block-238-133" class="ct-div-block"><h3 id="headline-239-133" class="ct-headline aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="2000" data-aos-once="true">Biller &amp; 3rd Party API</h3><img id="image-240-133" alt="" src="./asset_files/line_left.png" class="ct-image aos-init entered aos-animate lazyloaded" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="2200" data-aos-once="true" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/line_left.png" data-ll-status="loaded"><noscript><img id="image-240-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/line_left.png" class="ct-image" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="2200" data-aos-once="true"/></noscript></div></div><div id="div_block-113-133" class="ct-div-block"><img id="image-278-133" alt="" src="./asset_files/cardlez-illustration.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-illustration.png" data-ll-status="loaded"><noscript><img id="image-278-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-illustration.png" class="ct-image"/></noscript></div><div id="div_block-114-133" class="ct-div-block"><div id="div_block-246-133" class="ct-div-block"><h3 id="headline-247-133" class="ct-headline aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="0" data-aos-once="true">E-KYC &amp; Digital Signature</h3><img id="image-249-133" alt="" src="./asset_files/line_right.png" class="ct-image aos-init entered aos-animate lazyloaded" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="200" data-aos-once="true" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/line_right.png" data-ll-status="loaded"><noscript><img id="image-249-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/line_right.png" class="ct-image" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="200" data-aos-once="true"/></noscript></div><div id="div_block-256-133" class="ct-div-block"><h3 id="headline-257-133" class="ct-headline aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="800" data-aos-once="true">Credit Scoring System</h3><img id="image-273-133" alt="" src="./asset_files/line_right.png" class="ct-image aos-init entered aos-animate lazyloaded" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1000" data-aos-once="true" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/line_right.png" data-ll-status="loaded"><noscript><img id="image-273-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/line_right.png" class="ct-image" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1000" data-aos-once="true"/></noscript></div><div id="div_block-251-133" class="ct-div-block"><h3 id="headline-252-133" class="ct-headline aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1600" data-aos-once="true">P2P Lending Platform</h3><img id="image-272-133" alt="" src="./asset_files/line_right.png" class="ct-image aos-init entered aos-animate lazyloaded" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1800" data-aos-once="true" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/line_right.png" data-ll-status="loaded"><noscript><img id="image-272-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/line_right.png" class="ct-image" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease" data-aos-delay="1800" data-aos-once="true"/></noscript></div></div></div><div id="div_block-283-133" class="ct-div-block"><img id="image-282-133" alt="" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" class="ct-image" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-illustration.png"><noscript><img id="image-282-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/cardlez-illustration.png" class="ct-image"/></noscript></div></div></section><section id="section-158-133" class=" ct-section"><div class="ct-section-inner-wrap"><div id="div_block-159-133" class="ct-div-block"><div id="new_columns-160-133" class="ct-new-columns aos-init aos-animate" data-aos="flip-left" data-aos-once="true"><div id="div_block-161-133" class="ct-div-block"><img id="image-163-133" alt="" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/va-illustration.png" src="./asset_files/va-illustration.png" data-ll-status="loaded"><noscript><img id="image-163-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/va-illustration.png" class="ct-image"/></noscript></div><div id="div_block-162-133" class="ct-div-block"><h2 id="headline-164-133" class="ct-headline">VIRTUAL ACCOUNT &amp; TRANSFER BANK</h2><h3 id="headline-166-133" class="ct-headline">Kemudahan Pengelolaan Tabungan Milik Nasabah/Anggota</h3><div id="text_block-167-133" class="ct-text-block">Terhubung langsung dengan API &amp; Virtual Account Bank, sistem kami memfasilitasi proses Penerimaan Dana dari Nasabah/Anggota dan juga Pencairan Dana ke Bank lain kapanpun &amp; dimanapun</div><h4 id="headline-169-133" class="ct-headline">• Setoran Dana lewat Virtual Account Bank</h4><div id="text_block-170-133" class="ct-text-block">Nasabah/Anggota bisa melakukan setoran ke rekening mereka di BPR/Koperasi melalui transfer dari e-Channel Bank apapun</div><h4 id="headline-174-133" class="ct-headline">• Pencairan Dana ke Bank Lain</h4><div id="text_block-176-133" class="ct-text-block">Nasabah/Anggota bisa melakukan pencairan dana dari rekening BPR/Koperasi mereka ke rekening Bank manapun</div></div></div><div id="new_columns-178-133" class="ct-new-columns aos-init" data-aos="flip-right"><div id="div_block-181-133" class="ct-div-block"><h2 id="headline-182-133" class="ct-headline">DIGITAL CERTIFICATE &amp; SIGNATURE</h2><h3 id="headline-183-133" class="ct-headline">E-KYC &amp; Tandatangan Digital</h3><div id="text_block-184-133" class="ct-text-block">Bekerjasama dengan perusahaan Penyelenggara Sertifikasi Elektronik (PSrE) yang secara resmi diawasi oleh OJK &amp; Kominfo, membuat e-KYC Nasabah Koperasi &amp; BPR dapat dilakukan. Nasabah juga bisa dengan tenang dapat melakukan transaksi keuangan &amp; Tandatangan Digital secara legal</div><div id="div_block-285-133" class="ct-div-block"><div id="code_block-288-133" class="ct-code-block"><ol>
+	<li>Pendaftaran Anggota Baru &amp; Pengecekan ke Dukcapil</li>
+	<li>Pembukaan Tabungan &amp; Deposito</li>
+	<li>Pengajuan &amp; Tandatangan Pinjaman Online</li>
+</ol></div></div></div><div id="div_block-179-133" class="ct-div-block"><img id="image-180-133" alt="" src="./asset_files/ekyc-illustration.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/ekyc-illustration.png" data-ll-status="loaded"><noscript><img id="image-180-133" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/ekyc-illustration.png" class="ct-image"/></noscript></div></div></div></div></section><section id="client" class=" ct-section"><div class="ct-section-inner-wrap"><div id="div_block-222-133" class="ct-div-block"><div id="div_block-223-133" class="ct-div-block"><h2 id="headline-225-133" class="ct-headline"><div>Daftar Sekarang dan dapatkan&nbsp;</div><div>solusi cardlez untuk bisnis Anda!</div></h2></div><div id="div_block-224-133" class="ct-div-block"><a id="link_button-226-133" class="ct-link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdsvpGw4Oq2EKq7OD6GR9DzTNW6_Vf9aG-uO2fnp1-ho3BZrA/viewform" target="_blank">DAFTAR DISINI GRATIS</a></div></div><div id="new_columns-306-133" class="ct-new-columns"><div id="div_block-307-133" class="ct-div-block"><div id="code_block-333-133" class="ct-code-block">hello world!</div><h2 id="headline-320-133" class="ct-headline">Testimonial Pelanggan</h2><div id="slider-318-133" class="ct-slider ct_unique_slider_4858"><div class="unslider"><div class="oxygen-unslider-container unslider-horizontal" style="position: relative; overflow: hidden;"><ul class="unslider-wrap unslider-carousel" style="width: 300%; margin-left: -100%; left: -99.7631%;"><li class="unslider-clone" style="width: 33.3333%;"><div id="slide-319-133" class="ct-slide">
+        <div id="_testimonial-317-133" class="oxy-testimonial oxy-testimonial-vertical">
+
+            
+            <div class="oxy-testimonial-photo-wrap">
+                <img id="_testimonial-317-133_photo" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" class="oxy-testimonial-photo oxygenberg-_testimonial-317-133_photo" data-lazy-src="http://via.placeholder.com/125x125"><noscript><img id="_testimonial-317-133_photo" src='http://via.placeholder.com/125x125' class='oxy-testimonial-photo oxygenberg-_testimonial-317-133_photo' /></noscript>
+            </div>
+        
+        
+            <div class="oxy-testimonial-content-wrap">
+                <div id="_testimonial-317-133_text" class="oxy-testimonial-text oxygenberg-_testimonial-317-133_text">
+                    "This is your testimonial text. Keep it short, simple, and to the point. This is a pretty good length."                </div>
+                <div class="oxy-testimonial-author-wrap">
+                    <div id="_testimonial-317-133_author" class="oxy-testimonial-author oxygenberg-_testimonial-317-133_author">
+                        Jane Doe                    </div>
+                                            <div id="_testimonial-317-133_author_info" class="oxy-testimonial-author-info oxygenberg-_testimonial-317-133_author_info">
+                            Jarvis Web Solutions Ltd.                        </div>
+                                    </div>
+            </div>
+        </div>
+
+        </div></li><li class="unslider-active" style="width: 33.3333%;"><div id="slide-319-133" class="ct-slide">
+        <div id="_testimonial-317-133" class="oxy-testimonial oxy-testimonial-vertical">
+
+            
+            <div class="oxy-testimonial-photo-wrap">
+                <img id="_testimonial-317-133_photo" src="./asset_files/125x125" class="oxy-testimonial-photo oxygenberg-_testimonial-317-133_photo entered lazyloaded" data-lazy-src="http://via.placeholder.com/125x125" data-ll-status="loaded"><noscript><img id="_testimonial-317-133_photo" src='http://via.placeholder.com/125x125' class='oxy-testimonial-photo oxygenberg-_testimonial-317-133_photo' /></noscript>
+            </div>
+        
+        
+            <div class="oxy-testimonial-content-wrap">
+                <div id="_testimonial-317-133_text" class="oxy-testimonial-text oxygenberg-_testimonial-317-133_text">
+                    "This is your testimonial text. Keep it short, simple, and to the point. This is a pretty good length."                </div>
+                <div class="oxy-testimonial-author-wrap">
+                    <div id="_testimonial-317-133_author" class="oxy-testimonial-author oxygenberg-_testimonial-317-133_author">
+                        Jane Doe                    </div>
+                                            <div id="_testimonial-317-133_author_info" class="oxy-testimonial-author-info oxygenberg-_testimonial-317-133_author_info">
+                            Jarvis Web Solutions Ltd.                        </div>
+                                    </div>
+            </div>
+        </div>
+
+        </div></li><li class="unslider-clone" style="width: 33.3333%;"><div id="slide-319-133" class="ct-slide">
+        <div id="_testimonial-317-133" class="oxy-testimonial oxy-testimonial-vertical">
+
+            
+            <div class="oxy-testimonial-photo-wrap">
+                <img id="_testimonial-317-133_photo" src="./asset_files/125x125" class="oxy-testimonial-photo oxygenberg-_testimonial-317-133_photo entered lazyloaded" data-lazy-src="http://via.placeholder.com/125x125" data-ll-status="loaded"><noscript><img id="_testimonial-317-133_photo" src='http://via.placeholder.com/125x125' class='oxy-testimonial-photo oxygenberg-_testimonial-317-133_photo' /></noscript>
+            </div>
+        
+        
+            <div class="oxy-testimonial-content-wrap">
+                <div id="_testimonial-317-133_text" class="oxy-testimonial-text oxygenberg-_testimonial-317-133_text">
+                    "This is your testimonial text. Keep it short, simple, and to the point. This is a pretty good length."                </div>
+                <div class="oxy-testimonial-author-wrap">
+                    <div id="_testimonial-317-133_author" class="oxy-testimonial-author oxygenberg-_testimonial-317-133_author">
+                        Jane Doe                    </div>
+                                            <div id="_testimonial-317-133_author_info" class="oxy-testimonial-author-info oxygenberg-_testimonial-317-133_author_info">
+                            Jarvis Web Solutions Ltd.                        </div>
+                                    </div>
+            </div>
+        </div>
+
+        </div></li></ul></div><nav class="unslider-nav"><ol><li data-slide="0" class="unslider-active">1</li></ol></nav></div></div><script class="ct-slider-script">window.addEventListener('DOMContentLoaded', function() {jQuery(document).ready(function($){$('#slider-318-133.ct_unique_slider_4858 .oxygen-unslider-container:not(.unslider-horizontal,.unslider-fade)').unslider({autoplay: true, delay: 5000, animation: 'horizontal', speed : 1000, arrows: false, nav: true, infinite: true})});});</script></div><div id="div_block-308-133" class="ct-div-block"><h2 id="headline-196-133" class="ct-headline">Pelanggan Kami</h2><div id="div_block-220-133" class="ct-div-block"><div id="shortcode-221-133" class="ct-shortcode"><div class="lgx_logo_slider_app_wrapper lgx-logo-slider-wp"><div class="lgx-logo-wrapper  nav-position-b-center hover-none"><div class="owl-carousel lgx-logo-carousel owl-loaded owl-drag" data-autoplaytimeout="2000" data-autoplayspeed="200" data-margin="10" data-loop="true" data-autoplay="true" data-autoplayhoverpause="false" data-dots="false" data-itemlarge="5" data-itemdesk="4" data-itemtablet="3" data-itemmobile="2" data-navlarge="false" data-navdesk="false" data-navtablet="false" data-navmobile="false"><div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s linear 0s;"><div class="owl-item"><div class="item lgx-log-item"><div class="lgx-logo-item"><img class="lgx-logo-img skip-lazy" src="./asset_files/partner-catur-pilar-bersatu.png" style="max-width: 350px;max-height: 350px;" alt="" title="Company"></div></div></div><div class="owl-item"><div class="item lgx-log-item"><div class="lgx-logo-item"><img class="lgx-logo-img skip-lazy" src="./asset_files/partner-indosurya.png" style="max-width: 350px;max-height: 350px;" alt="" title="Company"></div></div></div><div class="owl-item"><div class="item lgx-log-item"><div class="lgx-logo-item"><img class="lgx-logo-img skip-lazy" src="./asset_files/partner-danamitra.png" style="max-width: 350px;max-height: 350px;" alt="" title="Company"></div></div></div><div class="owl-item"><div class="item lgx-log-item"><div class="lgx-logo-item"><img class="lgx-logo-img skip-lazy" src="./asset_files/partner-bank-angga.png" style="max-width: 350px;max-height: 350px;" alt="" title="Company"></div></div></div><div class="owl-item"><div class="item lgx-log-item"><div class="lgx-logo-item"><img class="lgx-logo-img skip-lazy" src="./asset_files/partner-dana-karya.png" style="max-width: 350px;max-height: 350px;" alt="" title="Company"></div></div></div><div class="owl-item"><div class="item lgx-log-item"><div class="lgx-logo-item"><img class="lgx-logo-img skip-lazy" src="./asset_files/partner-swakarya-bri.png" style="max-width: 350px;max-height: 350px;" alt="" title="Company"></div></div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><img src="./asset_files/prev.png" alt="Left"></button><button type="button" role="presentation" class="owl-next"><img src="./asset_files/next.png" alt="Right"></button></div><div class="owl-dots disabled"></div></div></div></div></div></div><div id="div_block-293-133" class="ct-div-block"><style>/* FLEX GALLERY */
+
+.oxy-gallery.oxy-gallery-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.oxy-gallery-flex .oxy-gallery-item {
+	overflow: hidden;
+	flex: auto;
+
+}
+
+.oxy-gallery-flex .oxy-gallery-item-sizer {
+	position: relative;
+}
+
+.oxy-gallery-flex .oxy-gallery-item-contents {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	background-size: cover;
+	margin: 0;
+}
+
+.oxy-gallery-flex .oxy-gallery-item-contents img {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+
+
+/* MASONRY GALLERY */
+
+.oxy-gallery.oxy-gallery-masonry {
+	display: block;
+	overflow: auto;
+}
+
+.oxy-gallery-masonry .oxy-gallery-item {
+	break-inside: avoid;
+	display: block;
+	line-height: 0;
+	position: relative;
+}
+
+.oxy-gallery-masonry figure.oxy-gallery-item-contents {
+	margin: 0;
+}
+
+.oxy-gallery-masonry .oxy-gallery-item .oxy-gallery-item-contents img {
+	max-width: 100%;
+}
+
+.oxy-gallery-masonry .oxy-gallery-item .oxy-gallery-item-contents figcaption {
+	display: none;
+}
+
+/* GRID GALLERY */
+.oxy-gallery-grid .oxy-gallery-item {
+	overflow: hidden;
+	flex: auto;
+	position: relative;
+}
+
+.oxy-gallery-grid .oxy-gallery-item-contents {
+	margin: 0;
+}
+
+.oxy-gallery-grid .oxy-gallery-item-contents img {
+	width: 100%;
+	height: auto;
+}
+
+.oxy-gallery-grid .oxy-gallery-item .oxy-gallery-item-contents figcaption {
+	display: none;
+}</style><style>
+            #_gallery-292-133.oxy-gallery-captions .oxy-gallery-item .oxy-gallery-item-contents figcaption:not(:empty) {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0,0,0,0.75); /* caption background color */
+                padding: 1em;
+                color: #ffffff;  /* caption text color */
+                font-weight: bold;
+                -webkit-font-smoothing: antialiased;
+                font-size: 1em;
+                text-align: center;
+                line-height: 1;
+                /*pointer-events: none;*/
+                transition: 0.3s ease-in-out opacity;
+                display: block;
+            }
+
+                
+            #_gallery-292-133.oxy-gallery-captions .oxy-gallery-item .oxy-gallery-item-contents figcaption:not(:empty) {
+                opacity: 0;
+            }
+            #_gallery-292-133.oxy-gallery-captions .oxy-gallery-item:hover .oxy-gallery-item-contents figcaption {
+                opacity: 1;
+            }
+
+        
+            @media (max-width: ) {
+              #_gallery-292-133.oxy-gallery-captions .oxy-gallery-item .oxy-gallery-item-contents figcaption:not(:empty) {
+                display: none;
+              }
+            }
+
+                    
+            /* hover effects */
+            #_gallery-292-133.oxy-gallery .oxy-gallery-item {
+              opacity: 0.9;
+              transition: 0.3s ease-in-out opacity;
+            }
+
+            #_gallery-292-133.oxy-gallery .oxy-gallery-item:hover {
+              opacity: 1;
+            }
+
+        </style>        <div id="_gallery-292-133" class="oxy-gallery oxy-gallery-grid">
+        
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-catur-pilar-bersatu.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-catur-pilar-bersatu.png" data-original-src-width="136" data-original-src-height="102" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-catur-pilar-bersatu.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-catur-pilar-bersatu.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-catur-pilar-bersatu.png" data-original-src-width="136" data-original-src-height="102" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-indosurya.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-indosurya.png" data-original-src-width="184" data-original-src-height="138" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-indosurya.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-indosurya.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-indosurya.png" data-original-src-width="184" data-original-src-height="138" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-bank-angga.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-bank-angga.png" data-original-src-width="136" data-original-src-height="102" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-bank-angga.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-bank-angga.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-bank-angga.png" data-original-src-width="136" data-original-src-height="102" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-danamitra.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-danamitra.png" data-original-src-width="185" data-original-src-height="138" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-danamitra.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-danamitra.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-danamitra.png" data-original-src-width="185" data-original-src-height="138" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-dana-karya.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-dana-karya.png" data-original-src-width="185" data-original-src-height="139" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-dana-karya.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-dana-karya.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-dana-karya.png" data-original-src-width="185" data-original-src-height="139" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-primas.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-primas.png" data-original-src-width="156" data-original-src-height="117" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-primas.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-primas.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-primas.png" data-original-src-width="156" data-original-src-height="117" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-swakarya-bri.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-swakarya-bri.png" data-original-src-width="157" data-original-src-height="118" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-swakarya-bri.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-swakarya-bri.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-swakarya-bri.png" data-original-src-width="157" data-original-src-height="118" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-ksp-mitra-muda-sejahtera.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-ksp-mitra-muda-sejahtera.png" data-original-src-width="155" data-original-src-height="117" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-ksp-mitra-muda-sejahtera.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-ksp-mitra-muda-sejahtera.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-ksp-mitra-muda-sejahtera.png" data-original-src-width="155" data-original-src-height="117" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                <div class="oxy-gallery-item">
+
+                    <figure class="oxy-gallery-item-contents">
+
+                        <img src="./asset_files/partner-ne-koperasi.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-ne-koperasi.png" data-original-src-width="157" data-original-src-height="118" alt="" data-lazy-src="https://cardlez.com/wp-content/uploads/2021/08/partner-ne-koperasi.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://cardlez.com/wp-content/uploads/2021/08/partner-ne-koperasi.png" data-original-src="https://cardlez.com/wp-content/uploads/2021/08/partner-ne-koperasi.png" data-original-src-width="157" data-original-src-height="118" alt=""></noscript>
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                </div>
+
+            
+                </div>
+        </div></div></div></div></section></div><section id="kontak" class=" ct-section"><div class="ct-section-inner-wrap"><h1 id="headline-83-101" class="ct-headline">Hubungi Kami Jika Anda memerlukan Bantuan</h1><div id="new_columns-78-101" class="ct-new-columns"><div id="div_block-79-101" class="ct-div-block"><div id="code_block-82-101" class="ct-code-block"><iframe src="./asset_files/embed.html" style="border:0;" allowfullscreen="" class="maps entered lazyloaded" loading="lazy" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.3725198153643!2d106.8205941!3d-6.2145045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f55f62aa696d%3A0x1c9e260670284370!2sWorld%20Trade%20Center%203!5e0!3m2!1sen!2sid!4v1629274914190!5m2!1sen!2sid" data-ll-status="loaded"></iframe><noscript><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.3725198153643!2d106.8205941!3d-6.2145045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f55f62aa696d%3A0x1c9e260670284370!2sWorld%20Trade%20Center%203!5e0!3m2!1sen!2sid!4v1629274914190!5m2!1sen!2sid" style="border:0;" allowfullscreen="" class="maps" loading="lazy"></iframe></noscript></div></div><div id="div_block-80-101" class="ct-div-block"><div id="div_block-34-101" class="ct-div-block"><h1 id="headline-36-101" class="ct-headline">PT. Invelli Solusindo</h1><div id="text_block-37-101" class="ct-text-block">WTC 3, Spaces<br>Jl.Jendral Sudirman Kav.29-31<br>Jakarta Selatan, 12920</div></div><div id="div_block-35-101" class="ct-div-block"><div id="div_block-40-101" class="ct-div-block"><img id="image-41-101" alt="" src="./asset_files/whatsapp-2.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/whatsapp-2.png" data-ll-status="loaded"><noscript><img id="image-41-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/whatsapp-2.png" class="ct-image"/></noscript><div id="div_block-42-101" class="ct-div-block"><h3 id="headline-43-101" class="ct-headline">Whatsapp Marketing Cardlez:</h3><a id="link-121-101" class="ct-link" href="https://wa.me/6281383260527"><h3 id="headline-45-101" class="ct-headline"><div>+62-8138-3260-527 (Yulia)</div></h3></a><a id="link-122-101" class="ct-link" href="https://wa.me/6281807576444"><h3 id="headline-47-101" class="ct-headline"><div>+62-8180-7576-444 (Robert)</div></h3></a></div></div><div id="div_block-49-101" class="ct-div-block"><img id="image-50-101" alt="" src="./asset_files/email.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/email.png" data-ll-status="loaded"><noscript><img id="image-50-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/email.png" class="ct-image"/></noscript><div id="div_block-51-101" class="ct-div-block"><h3 id="headline-52-101" class="ct-headline"><div>Email:</div></h3><a id="link-119-101" class="ct-link" href="mailto:enquiry@cardlez.com" target="_self"><h3 id="headline-53-101" class="ct-headline"><div>enquiry@cardlez.com</div></h3></a></div></div><div id="div_block-70-101" class="ct-div-block"><img id="image-71-101" alt="" src="./asset_files/phone.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/phone.png" data-ll-status="loaded"><noscript><img id="image-71-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/phone.png" class="ct-image"/></noscript><div id="div_block-72-101" class="ct-div-block"><h3 id="headline-73-101" class="ct-headline"><div>Phone:</div></h3><a id="link-120-101" class="ct-link" href="tel:+622150109641" target="_self"><h3 id="headline-74-101" class="ct-headline"><div>+62-21-5010-9641<br></div></h3></a></div></div></div></div></div></div></section><section id="section-87-101" class=" ct-section"><div class="ct-section-inner-wrap"><div id="new_columns-89-101" class="ct-new-columns"><div id="div_block-90-101" class="ct-div-block"><img id="image-24-101" alt="" src="./asset_files/logo.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/logo.png" data-ll-status="loaded"><noscript><img id="image-24-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/logo.png" class="ct-image"/></noscript><div id="div_block-96-101" class="ct-div-block"><a id="link_text-97-101" class="ct-link-text" href="http://cardlez.com/#home" target="_self">Home</a><a id="link_text-98-101" class="ct-link-text" href="http://cardlez.com/#fitur" target="_self">Fitur</a><a id="link_text-99-101" class="ct-link-text" href="http://cardlez.com/#client" target="_self">Client</a><a id="link_text-123-101" class="ct-link-text" href="http:" target="_self">Artikel</a><a id="link_text-100-101" class="ct-link-text" href="http://cardlez.com/#kontak" target="_self">Kontak</a></div><div id="text_block-25-101" class="ct-text-block">COPYRIGHT © 2021 PT.INVELLI SOLUSINDO ALL RIGHTS RESERVED</div><div id="div_block-128-101" class="ct-div-block"><a id="link_text-129-101" class="ct-link-text" href="https://cardlez.com/privacy-policy/">T&amp;C</a><a id="link_text-130-101" class="ct-link-text" href="https://cardlez.com/syarat-dan-ketentuan/">Syarat &amp; Ketentuan</a></div></div><div id="div_block-91-101" class="ct-div-block"><div id="div_block-102-101" class="ct-div-block"><div id="text_block-103-101" class="ct-text-block">Ikuti Social Media Kami</div><div id="div_block-104-101" class="ct-div-block"><a id="link-106-101" class="ct-link" href="https://www.facebook.com/cardlez/"><img id="image-105-101" alt="" src="./asset_files/facebook.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/facebook.png" data-ll-status="loaded"><noscript><img id="image-105-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/facebook.png" class="ct-image"/></noscript></a><a id="link-115-101" class="ct-link" href="https://www.instagram.com/cardlez.id/?hl=en"><img id="image-116-101" alt="" src="./asset_files/instagram.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/instagram.png" data-ll-status="loaded"><noscript><img id="image-116-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/instagram.png" class="ct-image"/></noscript></a><a id="link-117-101" class="ct-link" href="https://www.linkedin.com/company/invelli-solusindo/"><img id="image-118-101" alt="" src="./asset_files/linkedin.png" class="ct-image entered lazyloaded" data-lazy-src="http://cardlez.com/wp-content/uploads/2021/08/linkedin.png" data-ll-status="loaded"><noscript><img id="image-118-101" alt="" src="http://cardlez.com/wp-content/uploads/2021/08/linkedin.png" class="ct-image"/></noscript></a></div></div></div></div></div></section>	<!-- WP_FOOTER -->
+<script>window.addEventListener('DOMContentLoaded', function() {jQuery(document).on('click','a[href*="#"]',function(t){if(jQuery(t.target).closest('.wc-tabs').length>0){return}if(jQuery(this).is('[href="#"]')||jQuery(this).is('[href="#0"]')||jQuery(this).is('[href*="replytocom"]')){return};if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=jQuery(this.hash);(e=e.length?e:jQuery("[name="+this.hash.slice(1)+"]")).length&&(t.preventDefault(),jQuery("html, body").animate({scrollTop:e.offset().top-80},1000))}});});</script>
+		<script type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+			jQuery(document).ready(function() {
+				jQuery('body').on('click', '.oxy-menu-toggle', function() {
+					jQuery(this).parent('.oxy-nav-menu').toggleClass('oxy-nav-menu-open');
+					jQuery('body').toggleClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').toggleClass('oxy-nav-menu-prevent-overflow');
+				});
+				var selector = '.oxy-nav-menu-open .menu-item a[href*="#"]';
+				jQuery('body').on('click', selector, function(){
+					jQuery('.oxy-nav-menu-open').removeClass('oxy-nav-menu-open');
+					jQuery('body').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery(this).click();
+				});
+			});
+		});</script>
+
+	
+
+
+
+<script type="text/javascript" src="./asset_files/regenerator-runtime.min.js.download" id="regenerator-runtime-js" defer=""></script>
+<script type="text/javascript" src="./asset_files/wp-polyfill.min.js.download" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/cardlez.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="./asset_files/index.js.download" id="contact-form-7-js" defer=""></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/cardlez.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script data-minify="1" type="text/javascript" src="./asset_files/aos.js.download" id="oxygen-aos-js"></script>
+<script data-minify="1" type="text/javascript" src="./asset_files/owl.carousel.js.download" id="lgxlogoowljs-js" defer=""></script>
+<script type="text/javascript" id="lgx-logo-slider-script-dep-js-extra">
+/* <![CDATA[ */
+var logosliderwp = {"owl_navigationTextL":"https:\/\/cardlez.com\/wp-content\/plugins\/logo-slider-wp\/public\/assets\/img\/prev.png","owl_navigationTextR":"https:\/\/cardlez.com\/wp-content\/plugins\/logo-slider-wp\/public\/assets\/img\/next.png"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="./asset_files/logosliderwppublic-dep.js.download" id="lgx-logo-slider-script-dep-js" defer=""></script>
+<script type="text/javascript" src="./asset_files/unslider-min.js.download" id="oxygen-unslider-js" defer=""></script>
+<script data-minify="1" type="text/javascript" src="./asset_files/jquery.event.move.js.download" id="oxygen-event-move-js" defer=""></script>
+<script data-minify="1" type="text/javascript" src="./asset_files/jquery.event.swipe.js.download" id="oxygen-event-swipe-js" defer=""></script>
+<script type="text/javascript" id="ct-footer-js">window.addEventListener('DOMContentLoaded', function() {
+	  	AOS.init({
+	  		  		  		  		  		  		  				  			})
+		
+				jQuery('body').addClass('oxygen-aos-enabled');
+		
+		
+	});</script><style type="text/css" id="ct_code_block_css_18">#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list{
+	align-items: center;
+}
+
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item{
+	margin: 0 15px;
+}
+
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item:hover a, 
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item.current-menu-item a{
+	font-weight: 900;
+}
+
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item:nth-last-child(1), 
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item:nth-last-child(2){
+	padding: 10px 22px;
+	background: white;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item:nth-last-child(2) a {
+	color: #297DBD; 
+	font-weight: 800;
+	border: none !important;
+}
+
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item:nth-last-child(1) a {
+	font-weight: 800;
+	border: none !important;
+}
+
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item:nth-last-child(1) {
+	background: #FF5A00;
+}
+
+@media (max-width: 1120px) {
+	
+#_header_right-12-101 #_nav_menu-16-101 .oxy-nav-menu-list .menu-item{
+	margin: 15px;
+}
+	.oxy-nav-menu.oxy-nav-menu-open > div:last-child {
+		width: auto;
+	}
+}
+</style>
+<style type="text/css" id="ct_code_block_css_290">.object {
+  animation: MoveUpDown 1s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}</style>
+<style type="text/css" id="ct_code_block_css_294">#home .ct-section-inner-wrap{
+	height:auto;
+}
+#home {
+	height: 100%;
+	min-height: calc(100vh - 80px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}</style>
+<style type="text/css" id="ct_code_block_css_22">#video-17-133 iframe {
+	height: 175%
+}
+#video-17-133 >.oxygen-vsb-responsive-video-wrapper {
+	height: 280px;
+	padding-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+#video-17-133 >.oxygen-vsb-responsive-video-wrapper {
+	height: 200px;
+	padding-bottom: 0 !important;
+}
+}
+
+@media (max-width: 479px) {
+#video-17-133 >.oxygen-vsb-responsive-video-wrapper {
+	height: 120px;
+	padding-bottom: 0 !important;
+}
+}</style>
+<style type="text/css" id="ct_code_block_css_288">ol {
+  	list-style: none;
+  	padding-left: 10px;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+}
+
+ol li {
+	margin: 0;
+  	position: relative;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	line-height: 1.5;
+}
+
+ol li::before {
+	content: '';
+  	background: #297EBD;
+  	color: #fff;
+  	font-weight: bold;
+  	position: absolute;
+  	--size: 5px;
+  	left: calc(-1 * var(--size) - 5px);
+  	line-height: var(--size);
+  	width: var(--size);
+  	height: var(--size);
+  	top: 11px;
+  	border-radius: 50%;
+  	text-align: center;
+}</style>
+<style type="text/css" id="ct_code_block_css_333">#slider-318-133 .unslider-nav ol li {
+	width: 15px;
+	height: 15px;
+	background-color: #E5E5E5;
+	border: none;
+	border-radius: 50%;
+}
+
+#slider-318-133 .unslider-nav ol li.unslider-active {
+	background-color: #7F7F7F;
+}</style>
+<style type="text/css" id="ct_code_block_css_82">iframe {
+	width: 100%;
+	height: 100%;
+}</style>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="./asset_files/lazyload.min.js.download"></script><!-- /WP_FOOTER --> 
+
+
+
+<div style="display: none" class="ubey-RecordingScreen-count-down ubey-RecordingScreen-count-down-container">
+    <style>
+        .ubey-RecordingScreen-count-down-container {
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            z-index: 9999999999999;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .ubey-RecordingScreen-count-down-content {
+            position: absolute;
+            display: flex;
+            top: 50%;
+            left: 50%;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 15em;
+            width: 15em;
+            transform: translate(-50%, -100%);
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 50%;
+        }
+
+        #ubey-RecordingScreen-count-count {
+            font-size: 14em;
+            transform: translateY(-2%);
+        }
+    </style>
+    <div class="ubey-RecordingScreen-count-down-content">
+        <span id="ubey-RecordingScreen-count-count"></span>
+    </div>
+</div></body></html>
